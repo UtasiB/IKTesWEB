@@ -1,0 +1,1 @@
+# Szakmaippt10percben
