@@ -6,7 +6,8 @@ body{
 }
 table, th, td {
     border: 1px solid black;
-    margin: 0% 0 0 40%;
+    margin:auto;
+    border-collapse: collapse;
 }
 a{
     color: #8B4513;
@@ -20,4 +21,22 @@ h1{
     background-position:center;
     background-repeat: no-repeat;
     margin-left: auto;
+}
+.csiposseg{
+    margin-left: 40%;
+    margin-bottom: -20%;
+    position: relative;
+}
+.bemutat{
+    margin-left: 40%;
+       
+}   
+.fajtai{
+    padding-right: 80%;
+}
+li{
+    border: 1px solid lightblue;
+    margin: 0 70% 0 0;
+    text-align: center;
+    background-color: white;
 }
