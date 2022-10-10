@@ -19,9 +19,7 @@ a :hover{
     color: #8B4513;
 }
 .regili{
-  background-color: whitesmoke;
   padding-bottom: 3px;
-  text-decoration: none;
 }
 .regi{
   text-align: justify;
@@ -32,7 +30,6 @@ h1{
     color: darkgrey;
     height: 100px;
     background-repeat: no-repeat;
-    margin-left: auto;
     position: relative;
     top: -20px;
 }
@@ -40,14 +37,15 @@ h1{
 .csiposseg{ 
     position: relative;
     padding-bottom: 100px;
-    right: -50%;
+    right: -30%;
+    top: -420px;
     width: 50%;
 }
 
 .bemutat{
     position: relative;
     width: 50%;
-    top: 500px;
+    top: -425px;
     right: -30%;
     text-align: justify;
 }
@@ -63,14 +61,14 @@ h1{
 }
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   .csiposseg{top: -200px; width: 60%; right: -300px;}
   .bemutat{top: -190px; width: 70%; left: 300px;}
   .fajtai{width: 20%; right: -100px;}
 }
 
 @media screen and (min-width: 1300px) {
-  .csiposseg{top: -400px; left: 300px;}
+  .csiposseg{top: -400px; left: 200px;}
   .bemutat{top: -435px; left: 300px; width: 60%;}  
 }
 @media screen and (max-height: 1100px){
