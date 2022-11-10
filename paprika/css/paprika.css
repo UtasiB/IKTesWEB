@@ -1,18 +1,28 @@
 
 body{
-    background-color: #FFEFD5;
+    background-color: #FDFDBD;
     color: #8B4513;
+    margin-left: 10%;
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 2px solid #B1AFFF;
     margin:auto;
     border-collapse: collapse;
+    background-color: #C8FFD4 ;
+}
+p{
+  text-align: justify;
+}
+img{
+  width: 88%;
+  height: 150px;
 }
 
 a{
-    color: #8B4513;
+    color: #B1AFFF;
     text-decoration: none;
+
 }
 
 a :hover{
@@ -27,32 +37,39 @@ a :hover{
 }
 
 h1{
-    color: darkgrey;
+    color: #B1AFFF;
     height: 100px;
-    background-repeat: no-repeat;
     position: relative;
-    top: -20px;
+    top: -110px;
 }
 
 .csiposseg{ 
     position: relative;
     padding-bottom: 100px;
     right: -30%;
-    top: -420px;
+    top: -500px;
     width: 50%;
+    color: #B1AFFF;
 }
 
 .bemutat{
     position: relative;
     width: 50%;
-    top: -425px;
+    top: -500px;
     right: -30%;
     text-align: justify;
+    color: #B1AFFF;
+
 }
 
 .fajtai{
     width: 20%;
+    color: #B1AFFF;
+    top: -200px;
+    box-shadow: 5px 5px 5px black ;
 }
+
+
 @media screen and (min-width: 1200px){
   .hamburger{display: none;}
 }
